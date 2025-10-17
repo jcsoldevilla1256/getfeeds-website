@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 import withFlowbiteReact from "flowbite-react/plugin/nextjs";
 
 const nextConfig: NextConfig = {
-  output: 'export', // Enable static exports
-  basePath: '/getfeeds', // Replace with your repo name
+  // output: 'export', // Enable static exports - commented out for development
+  // basePath: '/getfeeds', // Replace with your repo name - commented out for development
   images: {
     unoptimized: true, // Required for static export
   },
