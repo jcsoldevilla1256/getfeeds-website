@@ -34,7 +34,7 @@ export default function Navbar() {
             {/* Logo & Brand */}
             <a href="https://flowbite.com" className="flex items-center space-x-2">
               <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-              <span className="text-2xl font-bold text-gray-900 dark:text-white">Flowbite</span>
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">GetFeeds</span>
             </a>
   
             {/* Desktop Navigation */}
