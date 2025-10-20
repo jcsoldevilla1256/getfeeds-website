@@ -1,4 +1,3 @@
-import { ThemeModeScript } from 'flowbite-react';
 import Hero from '@/components/landing/Hero';
 import Feature from '@/components/landing/Feature';
 import CTA from '@/components/landing/cta';

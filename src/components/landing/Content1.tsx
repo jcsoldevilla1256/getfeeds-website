@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Content1() {
     return (
         <div>
@@ -10,7 +12,7 @@ export default function Content1() {
                         
                     </div>
                     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                        <img src="https://i.ibb.co/Rk8YWqMW/Product-Mockup.png" alt="mockup" />
+                        <Image src="https://i.ibb.co/Rk8YWqMW/Product-Mockup.png" alt="mockup" width={600} height={600} />
                     </div>                
                 </div>
             </section>
