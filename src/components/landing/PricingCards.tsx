@@ -60,9 +60,12 @@ export default function PricingCards() {
                                 Get started
                             </a>
                         </div>
-                        {/* Pricing Card */}
-                        <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                            <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
+                        {/* Pricing Card (Highlighted) */}
+                        <div className="relative flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border-2 border-primary-500/60 ring-2 ring-primary-300/40 shadow-xl dark:border-primary-400/40 dark:ring-primary-300/20 xl:p-8 dark:bg-gray-800 dark:text-white transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl lg:scale-[1.03]">
+                            <span className="mb-3 inline-flex items-center justify-center self-center rounded-full bg-primary-100 px-3 py-1 text-xs font-semibold text-primary-700 dark:bg-primary-900/40 dark:text-primary-200 animate-pulse">
+                                Most Popular
+                            </span>
+                            <h3 className="mb-4 text-2xl font-extrabold">Premium</h3>
                             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                             Best for creators and professionals who want deeper insights.
                             </p>
