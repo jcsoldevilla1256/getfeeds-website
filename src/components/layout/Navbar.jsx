@@ -33,7 +33,11 @@ export default function Navbar() {
           <div className="container mx-auto flex items-center justify-between px-4 py-4">
             {/* Logo & Brand */}
             <a href="https://flowbite.com" className="flex items-center space-x-2">
-              <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-primary-700">
+              <path fillRule="evenodd" d="M12 2.25c-2.429 0-4.817.178-7.152.521C2.87 3.061 1.5 4.795 1.5 6.741v6.018c0 1.946 1.37 3.68 3.348 3.97.877.129 1.761.234 2.652.316V21a.75.75 0 0 0 1.28.53l4.184-4.183a.39.39 0 0 1 .266-.112c2.006-.05 3.982-.22 5.922-.506 1.978-.29 3.348-2.023 3.348-3.97V6.741c0-1.947-1.37-3.68-3.348-3.97A49.145 49.145 0 0 0 12 2.25ZM8.25 8.625a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Zm2.625 1.125a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm4.875-1.125a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z" clipRule="evenodd" />
+            </svg>
+
+              {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" /> */}
               <span className="text-2xl font-bold text-gray-900 dark:text-white">GetFeeds</span>
             </a>
   
@@ -41,34 +45,34 @@ export default function Navbar() {
             <ul className="hidden lg:flex items-center space-x-8 font-medium">
               <li>
                 <a href="#" className="text-primary-700 dark:text-white px-3 py-2 rounded-md" aria-current="page">
-                  Home
+                Features
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
-                  Company
+                Pricing 
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
-                  Marketplace
+                Use Cases
                 </a>
               </li>
               <li>
+                <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
+                About
+                </a>
+              </li>
+              {/* <li>
                 <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
                   Features
                 </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
-                  Team
-                </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 transition">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
   
             {/* Right buttons */}
@@ -130,34 +134,34 @@ export default function Navbar() {
             <ul className="px-2 pt-2 pb-3 space-y-1 font-medium">
               <li>
                 <a href="#" className="block text-primary-700 dark:text-white px-3 py-2 rounded-md" aria-current="page">
-                  Home
+                Features
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 rounded-md transition">
-                  Company
+                Pricing
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 rounded-md transition">
-                  Marketplace
+                Use Cases
                 </a>
               </li>
               <li>
                 <a href="#" className="block text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 rounded-md transition">
-                  Features
+                About
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="block text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 rounded-md transition">
                   Team
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="block text-gray-700 hover:text-primary-700 dark:text-gray-400 dark:hover:text-white px-3 py-2 rounded-md transition">
                   Contact
                 </a>
-              </li>
+              </li> */}
               <li className="flex space-x-2 mt-2">
                 <a
                   href="#"
