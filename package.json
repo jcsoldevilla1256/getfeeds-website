@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build --turbopack",
-    "deploy": "next build --turbopack && touch out/.nojekyll && gh-pages -d out"
+    "export": "next build",
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "flowbite": "^3.1.2",
